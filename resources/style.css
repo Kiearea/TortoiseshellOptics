@@ -156,8 +156,8 @@ p {
 }
 
 .philosophy {
-  margin: 0rem auto;
-
+  width: 35%;
+  margin-right: 5%;
 }
 
 h4 {
@@ -171,8 +171,25 @@ h4 {
   width: 10rem;
 }
 
-
-
 .appointments {
+  width: 35%;
+}
 
+/*footer*/
+.footer {
+  max-width: 960px;
+  margin: 5rem auto 0 auto;
+  background-color: azure;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+}
+
+.black_logo {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+.copy {
+  font-family: Helvetica;
 }
