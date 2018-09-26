@@ -180,7 +180,7 @@ h4 {
   max-width: 960px;
   margin: 5rem auto 0 auto;
   background-color: azure;
-  height: 8rem;
+  height: 10rem;
   display: flex;
   align-items: center;
 }
@@ -192,4 +192,38 @@ h4 {
 
 .copy {
   font-family: Helvetica;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 1024px) {
+  .main_container {
+    height: 22rem;
+    overflow: hidden;
+  }
+
+  .nav_container {
+    margin: 0 auto;
+  }
+
+  .headline_container {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    position: static;
+    background-color: white;
+    padding: 0rem;
+  }
+
+  .headline {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  h2 {
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
 }
